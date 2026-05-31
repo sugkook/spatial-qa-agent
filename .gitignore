@@ -1,0 +1,30 @@
+# 环境变量（含 API Key）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OSM 地图缓存
+cache/
+
+# 虚拟环境
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
